@@ -1,0 +1,274 @@
+@media (max-width: 720px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Fragment Mono", monospace;
+    background-color: beige;
+    width: 100vw;
+  }
+
+  #mainWindow {
+    margin-top: 8vh;
+  }
+  #contactBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(255, 190, 105);
+  }
+  #iconsSocial {
+    display: flex;
+    justify-content: space-around;
+  }
+  #iconsSocial > div {
+    width: 20px;
+  }
+  #resume {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(159, 66, 159);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  #myBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 50vw;
+    font-size: large;
+    color: white;
+    /* margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw; */
+    margin: 0;
+    background-color: rgb(159, 66, 159);
+    border-radius: 1vw;
+    box-shadow: 5px 5px 5px grey;
+  }
+  #mybtncss {
+    display: flex;
+    justify-content: center;
+  }
+
+  #contactinforButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .socials {
+    width: 50px;
+  }
+
+  #mainInfo {
+    text-align: center;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  #projectSection {
+    text-align: center;
+  }
+
+  #ddrGame {
+    display: flex;
+    justify-content: center;
+  }
+
+  #ddrGamePic {
+    margin: 0;
+    padding: 0;
+    width: 85vw;
+    box-shadow: 10px 10px 5px grey;
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .games {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Fragment Mono", monospace;
+    background-color: beige;
+    width: 100vw;
+  }
+
+  #mainWindow {
+    margin-top: 8vh;
+  }
+  #contactBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(255, 190, 105);
+  }
+  #iconsSocial {
+    display: flex;
+    justify-content: space-around;
+  }
+  #iconsSocial > div {
+    width: 20px;
+  }
+  #resume {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(159, 66, 159);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  #myBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 50vw;
+    font-size: large;
+    color: white;
+    /* margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw; */
+    margin: 0;
+    background-color: rgb(159, 66, 159);
+    border-radius: 1vw;
+    box-shadow: 5px 5px 5px grey;
+  }
+  #mybtncss {
+    display: flex;
+    justify-content: center;
+  }
+
+  #contactinforButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .socials {
+    width: 50px;
+  }
+
+  #mainInfo {
+    text-align: center;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  #projectSection {
+    text-align: center;
+  }
+
+  #ddrGame {
+    display: flex;
+    justify-content: center;
+  }
+
+  #ddrGamePic {
+    width: 50vw;
+    box-shadow: 10px 10px 5px grey;
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
